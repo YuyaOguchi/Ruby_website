@@ -23,6 +23,11 @@ it should already have website running.
 
 Hold Ctrl+ C to quit out.
 
+add function in app controller that shows text "Hello world"
+set that as root directory by adding 
+* root 'application#hello'
+in config/routes.rb
+
 
 Things you may want to cover:
 
