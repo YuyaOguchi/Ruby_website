@@ -29,6 +29,10 @@ set that as root directory by adding
 * root 'application#hello'
 in config/routes.rb
 
+Now create new database with:
+* rails generate scaffold User name:string email:string
+* rails db:migrate
+at this point, you should be able to go to directories /users and /users/new
 
 Things you may want to cover:
 
