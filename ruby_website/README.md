@@ -10,6 +10,7 @@ Create new project
 
 Install dependencies for your website by running 
 * bundle install
+* If pg doesn't install, do "brew install postgresql"
 
 if bundle is not installed, do:
 * gem install bundler
